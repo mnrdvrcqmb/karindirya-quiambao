@@ -3,6 +3,8 @@
         <?php echo validation_errors(); ?>
     </div>
 <?php endif; ?>
+<div class="row p-5"> 
+<div class="col-4"></div>
 <div class="class col-md-4">
         <!-- when the form is submitted this function in the controller will be called. -->
     <?php echo form_open_multipart ('Products/processAddProduct'); ?>
@@ -27,4 +29,5 @@
         <button type= "submit" class="btn btn-primary">Submit</button>
         <a type="a" class="btn btn-danger" href="<?= base_url('home/view_products'); ?>">Cancel</a>
     </form>
+</div>
 </div>

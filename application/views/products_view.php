@@ -1,5 +1,5 @@
 <div class="row p-5"> 
-    <div class="col 2"></div>
+    <div class="col-2"></div>
     <div class="col-8">
         <h3>This is today's Menu</h3>
         <a class="btn btn-success" href="<?= base_url('Products') ?>"  role="button">Add Product</a>
